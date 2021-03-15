@@ -790,7 +790,7 @@ selectmirrorsbycountry() {
 }
 
 installbase(){
-	pkgs="base"
+	pkgs="base base-devel"
 	options=()
 	options+=("linux" "")
 	options+=("linux-lts" "")
